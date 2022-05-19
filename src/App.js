@@ -3,11 +3,13 @@ import './App.css';
 import Login from './component/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Register from './component/Register';
 
 function App() {
   return (
     <div >
-      <Login/>
+      
+      <Register/>
   
     </div>
   );
