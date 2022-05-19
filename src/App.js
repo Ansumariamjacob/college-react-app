@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Register from './component/Register';
 import Addbook from './component/Addbook';
+import View from './component/View';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       
       <Register/>
       <Addbook/>
+      <View/>
   
     </div>
   );
