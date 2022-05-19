@@ -4,12 +4,14 @@ import Login from './component/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Register from './component/Register';
+import Addbook from './component/Addbook';
 
 function App() {
   return (
     <div >
       
       <Register/>
+      <Addbook/>
   
     </div>
   );
