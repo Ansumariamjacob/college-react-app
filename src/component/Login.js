@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Register from './Register'
 
 const Login = () => {
     var [username,setUsername]=useState("")
@@ -26,7 +27,7 @@ const Login = () => {
                     <button onClick={subData} class="btn btn-success">LOGIN</button>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                   
+                
                 </div>
             </div>
         </div>
