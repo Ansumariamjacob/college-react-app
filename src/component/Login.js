@@ -24,10 +24,10 @@ const Login = () => {
                     <input onChange={(e)=>{setPassword(e.target.value)}} type="password" name="" id="" class="form-control"/>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button onClick={subData} class="btn btn-success">LOGIN</button>
+                 <Link to={'/add'}>  <button onClick={subData} class="btn btn-success">LOGIN</button></Link> 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                
+                <a href='/register'>NEW USER CLICK HERE</a>
                 </div>
             </div>
         </div>

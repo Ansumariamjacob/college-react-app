@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Header from './Header'
 
 const Addbook = () => { 
     var [title,setTitle]=useState("")
@@ -10,25 +11,26 @@ const Addbook = () => {
     }
   return (
     <div>
-        <div class="container">
-    <div class="row">
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div class="row g-3">
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Book title</label>
-                    <input onChange={(e)=>{setTitle(e.target.value)}} type="text" class="form-control"/>
+        <Header/>
+        <div className="container">
+    <div className="row">
+        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div className="row g-3">
+                <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" className="form-label">Book title</label>
+                    <input onChange={(e)=>{setTitle(e.target.value)}} type="text" className="form-control"/>
                 </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Author</label>
-                    <input onChange={(e)=>{setAuthor(e.target.value)}} type="text" name="" id="" class="form-control"/>
+                <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" className="form-label">Author</label>
+                    <input onChange={(e)=>{setAuthor(e.target.value)}} type="text" name="" id="" className="form-control"/>
                 </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">price</label>
-                    <input onChange={(e)=>{setPrice(e.target.value)}} type="text" name="" id="" class="form-control"/>
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" className="form-label">price</label>
+                    <input onChange={(e)=>{setPrice(e.target.value)}} type="text" name="" id="" className="form-control"/>
                 </div>
                 
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button onClick={subData} class="btn btn-success">Submit</button>
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button onClick={subData} className="btn btn-success">Submit</button>
                 </div>
                                  
                 
